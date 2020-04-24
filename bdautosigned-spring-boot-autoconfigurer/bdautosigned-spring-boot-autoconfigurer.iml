@@ -33,7 +33,7 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-core:5.2.5.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-jcl:5.2.5.RELEASE" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.yaml:snakeyaml:1.25" level="project" />
-    <orderEntry type="library" name="Maven: cn.th:TiebaAutoSign:1.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: cn.th:TiebaAutoSign:1.0.2-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpclient:4.5.12" level="project" />
     <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpcore:4.4.13" level="project" />
     <orderEntry type="library" name="Maven: commons-codec:commons-codec:1.13" level="project" />
