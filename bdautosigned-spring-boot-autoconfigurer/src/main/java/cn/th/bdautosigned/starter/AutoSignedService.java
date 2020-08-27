@@ -19,7 +19,11 @@ public class AutoSignedService {
 
     public AutoSignedService(BdAutoSignedProperties properties){
         this.properties=properties;
-        Utils.setCookieInHeaders(properties.getBduss());
+        if(properties.getRetry_num()!=null){
+            Utils.setCookieAndRetryNumInHeaders(properties.getBduss(),properties.getRetry_num());
+        }else {
+            Utils.setCookieInHeaders(properties.getBduss());
+        }
     }
 
     public void allSigned(){
